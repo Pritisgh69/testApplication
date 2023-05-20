@@ -1,0 +1,541 @@
+@import url("https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+body {
+  background-color: #002947;
+  margin: 0px;
+  padding: 0px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.fantasy-banner-sec {
+  padding: 20px 0px;
+}
+
+.fantasy-banner-sec .fantasy-heading h1 {
+  font-family: 'Archivo', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 22px;
+  color: #FFFFFF;
+}
+
+.fantasy-banner-sec .fantasy-heading h1 .arrow-img {
+  margin-right: 30px;
+}
+
+@media (max-width: 380px) {
+  .fantasy-banner-sec .fantasy-heading h1 .arrow-img {
+    margin-right: 15px;
+  }
+}
+
+.fantasy-banner-sec .fantasy-heading h1 .battle-title {
+  color: #E47C29;
+}
+
+@media (max-width: 380px) {
+  .fantasy-banner-sec .fantasy-heading h1 {
+    font-size: 16px;
+  }
+}
+
+.fantasy-banner-sec .time-btn {
+  text-align: end;
+}
+
+.fantasy-banner-sec .time-btn a {
+  background: #024B5C;
+  border-radius: 4px;
+  padding: 10px 20px;
+  text-decoration: none;
+  font-family: 'Archivo', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 13px;
+  color: #FFFFFF;
+}
+
+.fantasy-which-match-sec .which-match-box {
+  color: #ffff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.fantasy-which-match-sec .which-match-box .team-member {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.fantasy-which-match-sec .which-match-box .team-member .text {
+  font-family: 'Archivo';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  color: #FFFFFF;
+}
+
+.fantasy-which-match-sec .which-match-box .team-member .vs-text {
+  font-family: 'Archivo';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  color: #FFFFFF;
+  width: 30px;
+  height: 30px;
+  background: #024B5C;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border-radius: 50%;
+  position: relative;
+}
+
+.fantasy-which-match-sec .which-match-box .team-member .vs-text::before {
+  content: '';
+  position: absolute;
+  width: 17px;
+  height: 2px;
+  background-color: #024B5C;
+  left: -18px;
+}
+
+.fantasy-which-match-sec .which-match-box .team-member .vs-text::after {
+  content: '';
+  position: absolute;
+  width: 17px;
+  height: 2px;
+  background-color: #024B5C;
+  right: -18px;
+}
+
+.fantasy-which-match-sec .which-match-box .team-member .img-box {
+  width: 30px;
+  height: 30px;
+  background: #fff;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border-radius: 50%;
+  margin-left: 10px;
+}
+
+.fantasy-play-sec {
+  background-color: #024B5C;
+}
+
+.fantasy-play-sec .card-box {
+  margin: 30px 0px;
+  padding: 15px 0px;
+}
+
+.fantasy-play-sec .card-box .card-col {
+  padding: 0px 5px;
+}
+
+.fantasy-play-sec .card-box .card-col .fantasy-img img {
+  width: 100%;
+}
+
+.fantasy-play-sec .card-box .card-col .fantasy-img-one {
+  background-color: #fff;
+  border-radius: 4px;
+}
+
+.fantasy-play-sec .card-box .card-col .fantasy-img-one img {
+  width: 100%;
+}
+
+.fantasy-play-sec .btn-row {
+  padding-bottom: 30px;
+}
+
+.fantasy-play-sec .btn-row .btn-box a {
+  text-decoration: none;
+  font-family: 'Archivo';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  color: #FFFFFF;
+  padding: 10px 20px;
+  background: #02404e;
+  border-radius: 4px;
+}
+
+@media (max-width: 380px) {
+  .fantasy-play-sec .btn-row .btn-box a {
+    font-size: 14px;
+  }
+}
+
+.fantasy-play-sec .btn-row .btn-box-one {
+  font-family: 'Archivo';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  color: #FFFFFF;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: end;
+}
+
+@media (max-width: 380px) {
+  .fantasy-play-sec .btn-row .btn-box-one {
+    font-size: 14px;
+  }
+}
+
+.fantasy-play-sec .btn-row .btn-box-one .text-sv {
+  background: #82ABFA;
+  border: 1px solid #3D65B3;
+  width: 30px;
+  height: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: 50%;
+  margin-left: 20px;
+}
+
+@media (max-width: 380px) {
+  .fantasy-play-sec .btn-row .btn-box-one .text-sv {
+    margin-left: 5px;
+  }
+}
+
+.fantasy-choose-sec {
+  background: #2A711F;
+  padding: 30px 0px;
+}
+
+.fantasy-choose-sec .fantasy-heading h1 {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 14px;
+  color: #FFFFFF;
+  text-align: center;
+}
+
+.fantasy-choose-sec .choose-row {
+  padding: 20px;
+}
+
+.fantasy-choose-sec .choose-row .choose-col {
+  padding: 0px;
+}
+
+.fantasy-choose-sec .choose-row .choose-col .choose-img {
+  background: #fff;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.fantasy-choose-sec .choose-row .choose-col .choose-img .overlay-text {
+  position: absolute;
+  top: 0px;
+  width: 100%;
+  height: 100%;
+  background: -webkit-gradient(linear, left top, left bottom, from(#ffffff00), color-stop(50%, #ffffff00), color-stop(75%, #ffffff), color-stop(50%, white), to(white));
+  background: linear-gradient(to bottom, #ffffff00 0%, #ffffff00 50%, #ffffff 75%, white 50%, white 100%);
+}
+
+.fantasy-choose-sec .choose-row .choose-col .choose-img .overlay-text .box {
+  height: 100%;
+  padding: 5px;
+}
+
+.fantasy-choose-sec .choose-row .choose-col .choose-img .overlay-text .box .text-box {
+  bottom: 0px;
+  position: absolute;
+  margin-bottom: 10px;
+}
+
+.fantasy-choose-sec .choose-row .choose-col .choose-img .overlay-text .box .text-box p {
+  margin: 0px;
+  font-family: 'Archivo';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  text-transform: uppercase;
+  color: #002947;
+}
+
+.fantasy-choose-sec .choose-row .choose-col .choose-img .overlay-text .box .text-box a {
+  font-family: 'Archivo';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  text-decoration: none;
+  color: #FFFFFF;
+  background: #024B5C;
+  padding: 5px 20px;
+  border-radius: 20px;
+}
+
+.fantasy-choose-sec .choose-row .choose-col .choose-img .overlay-text .box .text-box .sirname {
+  margin: 0px;
+  font-family: 'Archivo';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  text-transform: uppercase;
+  color: #002947;
+}
+
+.fantasy-choose-sec .choose-row .choose-col .choose-img-one {
+  background: #CF986C;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.fantasy-choose-sec .choose-row .choose-col .choose-img-one .circle-big {
+  position: relative;
+  width: 114px;
+  height: 114px;
+  margin: 30px auto 25px auto;
+}
+
+.fantasy-choose-sec .choose-row .choose-col .choose-img-one .circle-big svg {
+  width: 114px;
+  height: 114px;
+}
+
+.fantasy-choose-sec .choose-row .choose-col .choose-img-one .circle-big .bg {
+  fill: none;
+  stroke-width: 10px;
+  stroke: #343035;
+}
+
+.fantasy-choose-sec .choose-row .choose-col .choose-img-one .circle-big .progress {
+  fill: none;
+  stroke-width: 10px;
+  stroke: #9a0fe0;
+  stroke-linecap: round;
+  stroke-dasharray: 326.56;
+  stroke-dashoffset: 60;
+  -webkit-transform: rotate(-90deg);
+          transform: rotate(-90deg);
+  -webkit-transform-origin: 50% 50%;
+          transform-origin: 50% 50%;
+  -webkit-animation: big 1.5s ease-in-out;
+          animation: big 1.5s ease-in-out;
+}
+
+.fantasy-choose-sec .choose-row .choose-col .choose-img-one .circle-big .text {
+  position: absolute;
+  width: 100%;
+  top: 37px;
+  font-size: 24px;
+  text-align: center;
+  font-weight: 400;
+  line-height: 22px;
+}
+
+.fantasy-choose-sec .choose-row .choose-col .choose-img-one .circle-big .text .small {
+  font-size: 14px;
+  color: #fff;
+}
+
+.fantasy-choose-sec .choose-row .choose-col .choose-img-one .circles-small {
+  margin: 0 auto;
+  width: 400px;
+  height: 80px;
+  text-align: center;
+}
+
+.fantasy-choose-sec .choose-row .choose-col .choose-img-one .circle-small {
+  display: inline-block;
+  position: relative;
+  width: 80px;
+  height: 80px;
+  margin: 0 20px;
+  background-color: #002947;
+  border-radius: 100%;
+}
+
+.fantasy-choose-sec .choose-row .choose-col .choose-img-one .circle-small svg {
+  width: 80px;
+  height: 80px;
+}
+
+.fantasy-choose-sec .choose-row .choose-col .choose-img-one .circle-small .bg {
+  fill: none;
+  stroke-width: 6px;
+  stroke: #343035;
+}
+
+.fantasy-choose-sec .choose-row .choose-col .choose-img-one .circle-small .progress {
+  fill: none;
+  stroke-width: 6px;
+  stroke: #00B1DB;
+  stroke-linecap: round;
+  stroke-dasharray: 232.36;
+  -webkit-transform: rotate(-90deg);
+          transform: rotate(-90deg);
+  -webkit-transform-origin: 50% 50%;
+          transform-origin: 50% 50%;
+}
+
+.fantasy-choose-sec .choose-row .choose-col .choose-img-one .circle-small .progress.one {
+  stroke-dashoffset: 80;
+  -webkit-animation: one 2.5s ease-in-out, appear 1s;
+          animation: one 2.5s ease-in-out, appear 1s;
+}
+
+.fantasy-choose-sec .choose-row .choose-col .choose-img-one .circle-small .progress.two {
+  stroke-dashoffset: 140;
+  -webkit-animation: two 3.5s ease-in-out, appear 2s;
+          animation: two 3.5s ease-in-out, appear 2s;
+}
+
+.fantasy-choose-sec .choose-row .choose-col .choose-img-one .circle-small .text {
+  position: absolute;
+  width: 100%;
+  top: 21px;
+  font-size: 28px;
+  text-align: center;
+  font-weight: 400;
+  line-height: 16px;
+  color: #ffff;
+}
+
+.fantasy-choose-sec .choose-row .choose-col .choose-img-one .circle-small .text .small {
+  font-size: 12px;
+  color: #fff;
+}
+
+@-webkit-keyframes big {
+  from {
+    stroke-dashoffset: 326.56;
+  }
+  to {
+    stroke-dashoffset: 60;
+  }
+}
+
+@keyframes big {
+  from {
+    stroke-dashoffset: 326.56;
+  }
+  to {
+    stroke-dashoffset: 60;
+  }
+}
+
+@-webkit-keyframes one {
+  from {
+    stroke-dashoffset: 232.36;
+  }
+  to {
+    stroke-dashoffset: 80;
+  }
+}
+
+@keyframes one {
+  from {
+    stroke-dashoffset: 232.36;
+  }
+  to {
+    stroke-dashoffset: 80;
+  }
+}
+
+@-webkit-keyframes two {
+  from {
+    stroke-dashoffset: 232.36;
+  }
+  to {
+    stroke-dashoffset: 140;
+  }
+}
+
+@keyframes two {
+  from {
+    stroke-dashoffset: 232.36;
+  }
+  to {
+    stroke-dashoffset: 140;
+  }
+}
+
+@-webkit-keyframes appear {
+  0%,
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes appear {
+  0%,
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.fantasy-info {
+  padding: 30px 0px;
+}
+
+.fantasy-info .heading-box p {
+  font-family: 'Archivo';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 13px;
+  text-align: center;
+  color: #FFFFFF;
+}
+/*# sourceMappingURL=style.css.map */
